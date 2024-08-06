@@ -23,6 +23,11 @@
 <li>Guardado de la información durante sesiones</li>
 <li>Guardado de información de la última transacción</li>
 </ul>
+<p dir="auto"><strong>Arquitectura</strong></p>
+<ul dir="auto">
+<li>MVC (Modelo Vista Controlador)</li>
+</ul>
+
 <p dir="auto"><strong>Diseño</strong></p>
 <ul dir="auto">
 <li>Pagina donde se introduzca el tipo de cambio del dia</li>
