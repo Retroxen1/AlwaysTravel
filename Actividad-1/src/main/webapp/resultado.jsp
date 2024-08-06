@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@page import="model.Triangulo" %>
+<%@page import="model.Cambio" %>
 
 <!DOCTYPE html>
 <html>
@@ -10,19 +10,22 @@
 <body>
 
 <%
-	Triangulo t = (Triangulo) request.getAttribute("trianguloResuelto");
+		Cambio t = (Cambio) request.getAttribute("trianguloResuelto");
 %>
 
 
 		<h1>El resultado con el tipo de cambio de hoy: </h1>
 
-	Pesos: <%=t.getResultadoA()%> <br>
-	Dolares: <%=t.getResultadoP()%><br>
+	Pesos: <%=t.getCambio()%> <br>
+
 </body>
 
 	<form action="index.jsp">
 	<input type="submit" value="back"/>
 	</form>
+
+</div>
+	
 </body>
 
 </body>
